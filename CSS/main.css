@@ -1,0 +1,246 @@
+html, body 
+{
+    height: 100%;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+
+#container
+{
+    width: 100%;
+    height: 160%;
+}
+
+#menybar
+{
+    width: 100%;
+    height: 13%;
+    background-color: white;
+    border-bottom-style: solid;
+    border-width: 1.5px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: rgb(0,0,0);
+    position: fixed;
+    left: 0%;
+    z-index: 4;
+}
+
+/**/
+#logo
+{
+    background-image: url("../Prototype/logo_microsoft.png");
+    background-size: 300px 100px;
+    width: 280px;
+    height: 93px;
+    margin-top: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    left: 50%;
+    
+    webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+
+#logo:hover 
+{
+    width: 310px;
+    height: 105px;
+}
+
+/* Menyalternativer*/
+
+.food, .free_activities, .nightlife, .calendar
+{
+    font-size: 1.1em;
+    position: fixed;
+    float: left;
+    top: 9%;
+    color: black;
+    font-weight: bold;
+    
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+.food
+{
+    right: 80%;
+}
+
+.free_activities
+{
+    right: 60%;
+}
+
+.nightlife
+{
+    left: 60%;
+}
+
+.calendar
+{
+    left: 80%
+}
+
+
+.food:hover, .free_activities:hover, .nightlife:hover, .calendar:hover
+{
+    transition: all 0.5s;
+    color: rgb(6, 21, 120);
+    font-size: 1.2em;
+}
+
+#slidy
+{
+    z-index: 2;
+}
+
+
+#slideshow_hovedside
+{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    margin-top: -10px;
+}
+
+
+
+#right_container
+{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 72%;
+    z-index: 3;
+}
+
+#foodmapbox
+{
+    position: relative;
+    height: 60%;
+    width: 550px;
+    border-style: solid;
+    margin-top: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#featurebox
+{
+    height: 65%;
+}
+
+#infobox
+{
+    height: 35%;
+    top: 65%;
+    border-top-style: solid;
+}
+
+
+#left_container
+{
+    height: 81%;
+    width: 50%;
+    position: absolute;
+    left: 0%;
+    top: 69%;
+}
+
+#left_container, #right_container
+{
+    z-index: 3;
+}
+
+#foodlogo, #freelogo, #nightlifelogo, #calendarlogo
+{
+    width: 18%;
+    margin-right: 4%;
+    margin-top: 15%;
+    float: left;
+    opacity: 1;
+    border-style: solid;
+    border-color: black;
+}
+
+#frontpagetext
+{
+    font-size: 1.4em;
+    margin-top: 40%;
+    margin-left: 6%;
+    width: 87%;
+}
+
+
+
+#foodlogo
+{
+    margin-left: 6%;
+}
+
+#calendarlogo
+{
+    margin-right: 4%;
+}
+
+
+
+#foodlogo:hover, #freelogo:hover, #nightlifelogo:hover, #calendarlogo:hover
+{
+    transition: all 0.5s;
+    border-color: orange;
+    transform: scale(1.1);
+}
+
+#foodlogo_2, #freelogo_2
+{
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+#foodtext
+{
+    font-size: 2.5em;
+    margin-left: 32%;
+    width: 60%;
+    font-weight: bold;
+    margin-top: 21.5%;
+}
+
+#freetext
+{
+    font-size: 2em;
+    margin-left: 32%;
+    font-weight: bold;
+    margin-top: 20%;
+}
+
+#foodlogo_2, #foodtext
+{
+    float: left;
+    position: absolute;
+}
+
+#foodabouttext, #freeabouttext
+{
+    font-size: 1em;
+    margin-top: 40%;
+    margin-left: 11.5%;
+    width: 70%;
+}
+
+
