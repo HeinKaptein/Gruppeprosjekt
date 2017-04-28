@@ -200,9 +200,9 @@ html, body
 
 #foodlogo:hover, #freelogo:hover, #nightlifelogo:hover, #calendarlogo:hover
 {
-    transition: all 0.5s;
-    border-color: orange;
-    transform: scale(1.1);
+    transition: all 0.8s;
+    border-color: white;
+    transform: scale(1.2);
 }
 
 #freelogo_2
