@@ -210,7 +210,7 @@ html, body
     transform: scale(1.3)
 }
 
-#foodlogo_2, #freelogo_2
+#foodlogo_2, #freelogo_2, #nightlifelogo_2
 {
     width: 20%;
     margin-left: 10%;
@@ -221,41 +221,48 @@ html, body
 
 #foodtext
 {
-    font-size: 2.5em;
-    margin-left: 32%;
     width: 60%;
-    font-weight: bold;
-    margin-top: 21.5%;
+    margin-top: 20%;
 }
 
-#freetext
+#freetext, #foodtext, #nightlifetext
 {
     font-size: 2.5em;
     margin-left: 32%;
     font-weight: bold;
-    margin-top: -15%;
 }
 
-#foodlogo_2, #foodtext
+#nightlifetext
+{
+    margin-top: 21%;
+}
+
+#freetext
+{
+    margin-top: -17%;
+}
+
+
+#foodlogo_2, #foodtext, #freelogo_2 #freetext, #nightlifelogo_2, #nightlifetext
 {
     float: left;
     position: absolute;
 }
 
-#foodabouttext
+#foodabouttext, #freeabouttext, #nightlifeabouttext
 {
     font-size: 1em;
-    margin-top: 40%;
-    margin-left: 11.5%;
+    margin-left: 12%;
     width: 70%;
 }
 
-#freeabouttext
+#foodabouttext, #nightlifeabouttext
 {
-    font-size: 1em;
-    margin-top: 10%;
-    margin-left: 11.5%;
-    width: 70%;
+    margin-top: 40%;
 }
+
+
+
+
 
 
